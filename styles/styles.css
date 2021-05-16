@@ -9,26 +9,34 @@ body{
 }
 
 header{
-    
+   margin: 0 auto;
    background: url(../img/sale.PNG);
    background-repeat: no-repeat;
    background-size: cover;
-   width: 100%;
-   height: 100vh;
+   width: 80%;
+   height: 45vh;
    border: 10px blue double ;
-  
+   padding: 40px 40px 40px 40px;
+   border-radius: 5px;
+   
+}
+#contenedorMenu{
+    margin: 0 auto;
+    width: 86%;
+    height: 10vh;
+    border: 10px rgb(14, 12, 12) double;
+    border-radius: 5px;
 }
 #menu li{
-    border: 10px rgb(14, 12, 12) double;
-    padding: 50px;
-    border-radius: 5px;
+   color: blue;
 }
 .contenedor{
     margin: 0 auto;
     width: 80%;
     border: 10px rgb(14, 12, 12) double;
-    padding: 50px;
+    padding: 40px 40px 40px 40px;
     border-radius: 5px;
+    
 }
 .contenido-titulo h1{
     font-size: 48px;
