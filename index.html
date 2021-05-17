@@ -10,45 +10,86 @@
 </head>
 
 <body>
-    <div id="contenedorMenu">
-        <ul id="menu" >
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li><a href="formulario.html">Contacto</a></li>
-        </ul>
-    </div>
+   
     
     <header>
+        <nav >
+            <ul >
+                <li><a href="formulario.html">Inicio</a></li>
+                <li><a href="formulario.html">Conocenos</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
         <div class="contenedor">
          <div class="contenido-titulo">  
             <h1>Mi primera pagina web</h1>
          </div>
         </div>
     </header>
-    <div id="contenedorprincipal">
-        <img src="./img/paisaje_header.webp" alt="" title="">
-        <p class="parrafo1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod doloremque optio necessitatibus sed? Odit quasi
-            sunt harum vitae! Doloremque magni nulla impedit enim ex provident numquam aliquam itaque cupiditate! Suscipit?
-        </p>
-    
+
+    <main>
+     
+    <div class="contenedor-principal">
+       <div class="tabla">
+          <div class="contenedortabla">
+              <div class="contenidotabla">
+                  <table>
+                         <thead>
+                           <tr>
+                               <th> Nombre</th>
+                               <th> Apellido</th>
+                               <th> Ciudad</th>
+                           </tr>
+                         </thead>
+                      
+                             <tbody>
+                                  <tr>
+                                     <td>yeraldin</td>
+                                     <td>Cardona</td>
+                                     <td>Medellin</td>
+                                  </tr>
+                                   <tr>
+                                    <td>yeraldin</td>
+                                    <td>Cardona</td>
+                                    <td>Medellin</td>
+                                   </tr>      
+                                   <tr>
+                                    <td>yeraldin</td>
+                                    <td>Cardona</td>
+                                    <td>Medellin</td>
+                                 </tr>
+                                  
+                                 <tr>
+                                    <td><img src="img/paisaje_header.webp" alt=""></td>
+                                    <td><img src="img/paisaje_header.webp" alt=""></td>
+                                    <td><img src="img/paisaje_header.webp" alt=""></td>
+                                   </tr>                                   
+                             </tbody>
+                 </table>
+              </div>
+          </div>
     </div>
-  
-    <div id="tabla_imgs">
-       <table id="tabla">
-          <tr>
-              <td>
-                  <img src="img/paisaje_header.webp" alt="">
-              </td>
-              <td>
-                <img src="img/paisaje_header.webp" alt="">
-            </td>
-            <td>
-                <img src="img/paisaje_header.webp" alt="">
-            </td>
-          </tr>
-          
-       </table>
+</main>
+<div class="contenedor-list">
+    <div class="lista">
+        <details>
+            <sumary>HTML</sumary>   
+           <ol>
+               <li>Conceptos</li>
+               <li>Selectores</li>
+               <li>Atributos</li>
+           </ol>
+        </details>
+           <details open>
+               <sumary>css</sumary>
+               <ol>
+                   <li>Modelo de caja</li>
+                   <li>Display</li>
+                   <li>Hover</li>
+               </ol>
+           </details>
     </div>
+</div>
 
 </body>
 

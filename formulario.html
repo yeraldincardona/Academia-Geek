@@ -8,34 +8,37 @@
     <link rel="stylesheet" href="./styles/styles2.css">
 </head>
 <body>
-    <div id="contenedorMenu">
-        <ul id="menu" class="">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="">Nosotros</li>
-            <li><a href="formulario.html">Contacto</a></li>
-        </ul>
-    </div>
-    <div id="form">
-        <div id="contenidoform">
-      <label for="">Nombre:</label>
-      <input type="text" name="nombre" id="nombre">
-      <br/>
-      <label for="">Password:</label>
-      <input type="text" name="Password" id="password">
-      <br/>
-      <label for="">Edad:</label>
-      <input type="number" name="edad" id="edad">
-      <br/>
-      <label for="">Email:</label>
-      <input type="email" name="email" id="email">
-      <br/>
-       <label for="">Genero:</label>
-       <label for="">Femenino</label>
-       <input type="radio" name="femenino" id="femenino">
-       <label for="">Masculino</label>
-       <input type="radio" name="masculino" id="masculino">
+    <header>
+        <nav >
+            <ul >
+                <li><a href="formulario.html">Inicio</a></li>
+                <li><a href="formulario.html">Conocenos</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div id="form">
+            <div class="contenedorform">
+                <label for="">Salario Semanal</label><br/>
+                <label for="">Ingrese la cantidad de horas</label>
+          <input type="number" name="horas" id="horas">
+          <br/>
+          <br/>
+          <input id="btncancular" type="submit" name="boton" value="Calcular">
+           
+            <div class="contenedorValor">
+                <label for="">Valor a pagar</label><br/>
+                <label for="">Salario Semanal</label><br/>
+                <input type="text" name="salrioSemanal"><br/>
+                <label for="">Salario Extra</label><br/>
+                <input type="text" name="salrioExtra"><br/>
+                <label for="">Total a pagar</label><br/>
+                <input type="text" name="Total a pagar"><br/>
+            </div>
         </div>
-      
-    </div>
+        </div>
+     </header>
+
+   
 </body>
 </html>
